@@ -42,10 +42,12 @@ const Nav = styled.nav`
     align-items: center;
     padding: 0 36px;
     overflow-x: hidden;
-    border-bottom: solid 1px black;
+    border-bottom: solid 0.05px #595959;
+    overflow-y: hidden;
 `
 const Logo = styled.img`
-    width: 80px;
+    width: 100px;
+    
     
 
 `

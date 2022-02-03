@@ -19,7 +19,6 @@ const Container = styled.main`
     position: relative;
     overflow-x: hidden;
     
-
     h1 {
         color: black;
     }
