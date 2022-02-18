@@ -1,13 +1,13 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import Footer from './Footer';
+// import Footer from './Footer';
 
 function Menu() {
     return (
         <Container>
           <h1>Cardápio</h1>
-          <Footer />
+          {/* <Footer/> */}
         </Container>
     )
 }

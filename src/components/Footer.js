@@ -4,7 +4,7 @@ import styled from 'styled-components';
 function Footer() {
     return (
         <Container>
-             <p>Endereço: Travessa Mun., 27 - Carmo, Olinda - PE, 53120-060</p>
+             <p>Travessa Mun., 27 - Carmo, Olinda - PE, 53120-060</p>
         </Container>
     )
 }
@@ -22,7 +22,7 @@ const Container = styled.div`
 
     p {
         font-size: 18px;
-        font-weight: 100;
+        font-weight: 400;
         text-align: center;
         align-items: center;
         color: #fff;

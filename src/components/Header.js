@@ -5,7 +5,9 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
         <Nav>
-            <Logo src="/images/logo.png" />
+            <Link to="/">
+                <Logo src="/images/logo.png" />
+            </Link>
             <NavMenu>
 
                 <a>
@@ -21,8 +23,10 @@ function Header() {
                     </Link>
                 </a>
                 <a>
-                    <img src="/images/watchlist-icon.svg" />
-                    <span>Listas</span>
+                    <Link to="/lista">
+                        <img src="/images/watchlist-icon.svg" />
+                        <span>Listas</span>
+                    </Link>
                 </a>
     
             </NavMenu>

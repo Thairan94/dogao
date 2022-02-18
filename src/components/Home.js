@@ -1,23 +1,22 @@
 import React from 'react'
 import styled from 'styled-components';
 
-import Footer from './Footer';
+// import Footer from './Footer';
+import ImgSlider from './ImgSlider';
 
 
 function Home() {
     return (
         <Container>
-            <Content>
+            <ImgSlider/>
+            {/* <Content>
                 <Titles>
                     <h1>CALDINHO DO DOGÃO</h1>
                     <h2>O MELHOR DE OLINDA</h2>
                 </Titles>
-                <Logo src="/images/logo.png" />
-            </Content>
-            {/* <Footer>
-                <p>Endereço: Travessa Mun., 27 - Carmo, Olinda - PE, 53120-060</p>
-            </Footer> */}
-            <Footer />
+                
+            </Content> */}
+            {/* <Footer /> */}
         </Container>
     )
 }
@@ -40,32 +39,33 @@ const Container = styled.main`
         z-index: -1;
     } */
 `
-const Content = styled.div`
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-around;  
-    top: 35px;
-    /* background-color: red; */
-    position: absolute; 
+// const Content = styled.div`
+//     display: flex;
+//     margin-top: 20px;
+//     width: 100%;
+//     flex-direction: row;
+//     justify-content: space-around;  
+//     top: 35px;
+//     /* background-color: red; */
+//     position: absolute; 
 
-`
-const Titles = styled.div`
-    display: flex;
-    flex-direction: column;
+// `
+// const Titles = styled.div`
+//     display: flex;
+//     flex-direction: column;
 
-    h1 {
-        font-size: 42px;
-    }
+//     h1 {
+//         font-size: 42px;
+//     }
 
-    h2 {
-        font-size: 32px;
-    }
-`;
-const Logo = styled.img`
-    width: 450px;
-    height: 400px;
-`
+//     h2 {
+//         font-size: 32px;
+//     }
+// `;
+// const Logo = styled.img`
+//     width: 450px;
+//     height: 400px;
+// `
 
 // const Footer = styled.footer`
 //     display: flex;
